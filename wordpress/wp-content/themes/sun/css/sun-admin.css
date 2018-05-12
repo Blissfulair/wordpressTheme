@@ -1,0 +1,57 @@
+.general-form,
+.sun-sidebar-preview{
+  display: inline-blog;
+  float: left;
+}
+.sun-sidebar-preview{
+  width: 280px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+.sun-sidebar{
+  display: block;
+  text-align: center;
+}
+h1.sun-username,
+p.sun-description{
+  font-weight: 200;
+  color: #fff;
+}
+h1.sun-username{
+  font-size: 24px;
+  margin: 0, 0, 10px;
+}
+p.sun-description{
+  font-size: 13px;
+  margin: 0, 0, 20px;
+}
+.image-container{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.profile-picture{
+  width: 122px;
+  height: 122px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 20px auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.handler{
+  font-size: 13px;
+  color: white;
+  margin: 0 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+.handler:hover,
+.handler:focus{
+  color: #fff;
+  border: none;
+}

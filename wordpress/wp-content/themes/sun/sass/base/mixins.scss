@@ -1,0 +1,30 @@
+/*
+========================================================
+Mixins
+*/
+@mixin animate( $attr, $time ){
+  -webkit-transition: $attr $time ease-in-out;
+  -moz-transition: $attr $time ease-in-out;
+  -ms-transition: $attr $time ease-in-out;
+  -o-transition: $attr $time ease-in-out;
+  transition: $attr $time ease-in-out;
+}
+@mixin transform( $val ){
+  -webkit-transform: $val;
+  -moz-transform: $val;
+  -ms-transform: $val;
+  -o-transform: $val;
+  transform: $val;
+}
+@keyframes spin {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+@keyframes rotate {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+@mixin fullwidth(){
+  width: 100%;
+  height: auto;
+}
